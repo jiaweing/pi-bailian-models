@@ -152,7 +152,7 @@ function createApiKeyCredentials(apiKey: string): Promise<OAuthCredentials> {
 
 export default function registerModelStudioProvider(pi: ExtensionAPI): void {
 	pi.registerProvider("百炼 coding-plan", {
-		baseUrl: "https://coding.dashscope.aliyuncs.com/v1",
+		baseUrl: "https://coding-intl.dashscope.aliyuncs.com/v1",
 		// apiKey: "DASHSCOPE_API_KEY",
 		api: "openai-completions",
 		models: MODEL_STUDIO_MODELS,
