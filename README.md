@@ -32,7 +32,7 @@ pi install npm:pi-bailian-models
 
 **从源码安装 (From source):**
 ```bash
-pi install git:github.com/rUrU516/pi-bailian-models
+pi install git:github.com/jiaweing/pi-bailian-models
 ```
 
 ## 更新 / Update
